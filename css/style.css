@@ -6,7 +6,7 @@
 #chicken, #beef,  #sushi {
   font-family: Helvetica;
   border: 5px solid black;
-  padding: 20px;
+  padding: 5%;
   float:left;
   margin: 15px;
   position: relative;;
@@ -42,7 +42,6 @@
 }
 
 #chickenSectionText, #beefSectionText, #sushiSectionText{
-  /*clear: left;*/
   padding: 15px;
 }
 
@@ -61,6 +60,10 @@
 
 /**** Tablet View ****/
 @media (min-width: 768px) and (max-width: 991px){
+  body{
+    padding-right: 5%;
+    padding-left: 5%;
+  }
   #chicken{
     width: 40%;
   }
@@ -68,21 +71,23 @@
     width: 40%;
   }
   #sushi{
-    width: 80%;
+    width: 85%;
   }
 }
 
 /**** Mobile View ****/
 @media(max-width: 767px) {
+  body{
+    padding-right: 3%;
+  }
   #chicken{
-    width: 100%;
+    width: 97%;
   }
   #beef{
-    width: 100%
+    width: 97%
   }
   #sushi{
-    width: 100%;
-    /*height: 100px*/
+    width: 97%;
   }
 
 }
