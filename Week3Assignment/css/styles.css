@@ -1,0 +1,30 @@
+#nav-list{
+  background-color:#e06377;
+  text-align: center;
+  color: #FFFFFF;
+}
+#nav-list a{
+  color: #FFFFFF;
+}
+
+#nav-list a:hover {
+  background: #A0A0A0;
+}
+/*****Large Devices *****/
+@media (min-width: 1200px) {
+}
+
+/*****Medium Devices *****/
+@@media (min-width: 992px) {
+
+}
+
+/****Small Devices *****/
+@media (min-width: 768px) {
+
+}
+
+/*****Extra Small Devices *****/
+@media (min-width: 767px) {
+
+}
