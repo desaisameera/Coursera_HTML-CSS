@@ -10,6 +10,16 @@
 #nav-list a:hover {
   background: #A0A0A0;
 }
+
+#tall-section{
+  background-color: #034f84;
+  height: 1000px;
+
+}
+#menu-title{
+font-family: 'Sansita', sans-serif;
+font-size: 100%;
+}
 /*****Large Devices *****/
 @media (min-width: 1200px) {
 }
